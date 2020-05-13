@@ -1,0 +1,16 @@
+.webuploader-container{position:relative}
+.webuploader-element-invisible{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
+.webuploader-pick{display:block;margin:10px 0;height:40px;border:1px solid #d43f3a;background:#d9534f;color:#fff;text-align:center;font-size:14px;line-height:40px;border-radius:.25rem}
+#divFileProgressContainer{position:relative}
+.webuploader-pick-disable{opacity:.6;pointer-events:none}
+.progressName{margin:10px 0;font-size:14px}
+.progressName a{float:right;padding:4px 10px;border:1px solid #ff7a19;border-radius:4px;font-size:12px}
+.cancle{position:absolute;right:0;width:70px;height:26px;border:1px solid #ff7a19;border-radius:5px;color:#ff7a19;text-align:center;line-height:26px}
+.progressBarInProgress{display:block;height:100%;border-radius:3px;background:#ff7a19}
+.jindu{margin-top:20px;margin-bottom:8px;padding:3px;width:auto;height:23px;border:1px solid #D3D3D3;border-radius:4px}
+.progressBarStatus ul li{float:left!important;clear:none!important;display:inline!important;width:25%!important;text-align:center}
+.progressBarStatus ul li.first{text-align:left!important}
+.progressBarStatus ul li.last{width:75%!important;text-align:right!important}
+.uploadmain{margin:10px auto}
+.uplist{margin-top:10px}
+.uplist li span{display:inline-block;padding-right:10px;width:100px;text-align:right}

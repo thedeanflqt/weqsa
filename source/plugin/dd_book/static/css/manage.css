@@ -1,0 +1,16 @@
+.book_wrap{max-width:1020px;margin:0 auto 20px;padding:10px;background:#fff;line-height:24px;font:14px Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-serif}
+
+.site-h1{margin-bottom:20px;line-height:60px;padding-bottom:10px;color:#393D49;border-bottom:1px solid #eee;font-size:28px;font-weight:300}
+.site-title{margin:10px 0}
+.site-title fieldset{border:none;padding:0;border-top:1px solid #eee}
+.site-title fieldset legend{margin-left:20px;padding:0 10px;font-size:22px;font-weight:300}
+
+.book_title{margin-bottom:20px;padding:10px 0;border-bottom:1px solid #eee;overflow:hidden}
+.book_title h1{float:left;margin-left:-10px;font-size:26px;line-height:30px;font-weight:300;overflow:hidden}
+.book_title .layui-btn+.layui-btn{margin-left:5px}
+.book_title .layui-form-item{margin-bottom:0}
+.book_title .layui-input{height:30px;font-size:12px}
+
+.top-btn-bar .z{line-height:30px}
+.top-btn-bar .z h3{font-size:18px;float:left}
+.top-btn-bar .z a{float:left;margin-left:10px;font-size:12px}

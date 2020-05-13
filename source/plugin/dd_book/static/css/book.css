@@ -1,0 +1,22 @@
+.label-border{display:inline-block;padding:0 10px;background:#fff;border:1px solid #1e87f0;line-height:1.5;font-size:12px;color:#1e87f0;vertical-align:middle;white-space:nowrap;border-radius:2px;text-transform:uppercase}
+.label-success{color:#32d296;border-color:#32d296}
+
+.book_detail{position:relative;min-height:256px}
+.book_detail .book_cover{width:192px;height:256px;position:absolute;left:0;top:0}
+.book_detail .book_cover img{width:192px;height:256px}
+.book_info{padding-left:210px}
+.book_title{height:36px;line-height:36px;overflow:hidden}
+.book_title h1{font-size:24px;display:inline-block}
+.book_title em{margin-left:10px;color:#555;display:inline-block}
+.book_att{margin-top:10px}
+.book_summary{margin-top:10px;height:42px;line-height:21px;font-size:12px;color:#999;overflow:hidden}
+.book_open{margin-top:10px}
+.test{margin-top:10px;height:80px;background-color:#efefef}
+
+.new_chapter{margin-top:15px}
+.new_chapter h3{font-size:24px;margin-bottom:15px}
+.new_chapter_detail{position:relative;padding:20px 15px;background:#fff;border:1px solid #ebe6e1}
+.chapter_title{position:absolute;top:20px;left:15px;height:21px;line-height:21px;font-size:16px;font-weight:700}
+.chapter_time{position:absolute;top:20px;right:15px;height:21px;line-height:21px;font-size:12px;color:#888}
+.new_chapter_detail .chapter_description{padding-top:40px;line-height:21px;font-size:12px;color:#666;text-indent:2em}
+.no_chapter{width:100%;height:80px;line-height:80px;font-size:16px;text-align:center}

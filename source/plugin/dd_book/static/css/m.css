@@ -1,0 +1,31 @@
+.fl{float:left}
+.fr{float:right}
+.mt10{margin-top:10px}
+.book_wrap{margin-bottom:15px}
+
+.layui-card{margin-bottom:10px}
+.layui-card-header{position:relative}
+.layui-card-header h5{padding-left:10px;font-size:15px;font-weight:700}
+.layui-card-header h5:before{position:absolute;top:12px;left:15px;content:'';width:3px;height:16px;background:#f5554a;display:inline-block}
+.layui-card-header .more{position:absolute;right:10px;top:0}
+.layui-card-header .more i{font-size:12px}
+.layui-card-footer{position:relative;height:48px;line-height:48px;padding:0 15px;border-top:1px solid #f6f6f6;color:#333;border-radius:2px 2px 0 0;font-size:14px}
+.layui-card-footer .more{display:block;text-align:center;font-size:18px;color:#777}
+
+.child_list{overflow:hidden}
+.child_list li{float:left;width:25%;padding:0 5px;margin-bottom:10px;box-sizing:border-box;overflow:hidden}
+.child_list li a{display:block;height:28px;line-height:28px;background-color:#f8f8f8;border:1px solid rgba(0,0,0,.2);border-radius:5px;text-align:center}
+
+.book_item{position:relative;height:230px;overflow:hidden}
+.book_item .cover{position:relative;display:block;width:100%;height:146px;overflow:hidden}
+.book_item .cover img{width:100%;height:146px}
+.book_item .cover span{position:absolute;bottom:0;width:100%;height:26px;line-height:26px;background:rgba(0,0,0,.5);color:#fff;font-size:12px;text-align:center;display:block}
+.book_item .title{display:block;padding:0;margin-top:10px;height:20px;line-height:20px;font-size:14px;font-weight:700;overflow:hidden}
+.book_item .author{color:#999}
+.book_item .author i{color:#b8c3d9;font-size:12px}
+.book_item .type a{display:inline-block;padding:1px 3px;border:1px solid #a4b9cc;border-radius:4px;color:#a4b9cc}
+.book_item .summary{height:36px;line-height:18px;color:#999;overflow:hidden}
+.book_item .history{height:18px;color:#666}
+.book_item .history a{color:#666}
+.book_item .action{height:18px;}
+.book_item p{display:block;font-size:12px;margin-top:5px;line-height:18px;overflow:hidden}

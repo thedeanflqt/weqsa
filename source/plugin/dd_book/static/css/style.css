@@ -1,0 +1,66 @@
+.wp{min-width:1200px}
+#nv{background-repeat: repeat-x;background-position: 0 -33px;}
+#pt{margin: 5px 0;}
+
+.mod-panel{margin-bottom:15px;background:#fff}
+.mod-panel-title{height:42px;line-height:42px;border-left:1px solid #ebe6e1;border-right:1px solid #ebe6e1;border-top:2px solid #BA350F}
+.mod-panel-title h5{padding-left:10px;color:#ba350f;font-weight:700}
+.mod-panel-tab{padding:0 10px;overflow:hidden}
+.mod-panel-tab li{float:left;margin-right:20px;color:#888;cursor:pointer}
+.mod-panel-tab li span,.mod-panel-tab li a{display:block;padding:0 10px;border-bottom:1px solid transparent}
+.mod-panel-tab li.current{color:#ba350f}
+.mod-panel-tab li.current span,.mod-panel-tab li.current a{border-color:#ba350f}
+.mod-panel-content,.mod-panel-tab-content{border:#ebe6e1 solid 1px;overflow:hidden}
+
+.volume-panel{margin-top:15px}
+.volume-panel .mod-panel-content{padding:10px 20px;line-height:35px}
+
+.book_wrap{max-width:1200px;margin:0 auto 20px;line-height:24px;font:14px Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-serif;overflow:hidden}
+.book_left{width:885px;float:left}
+.book_right{width:300px;float:right}
+
+/*列表模块*/
+.book_item{position:relative;height:133px;padding-left:120px;margin-bottom:10px;overflow:hidden}
+.book_item .cover{position:absolute;left:0;top:0;width:110px;height:133px}
+.book_item .cover img{width:110px;height:133px}
+.book_item .cover span{position:absolute;bottom:0;width:100%;height:26px;line-height:26px;background:rgba(0,0,0,.5);color:#fff;font-size:12px;text-align:center;display:block}
+.book_item .title{display:block;padding:0;height:20px;line-height:20px;font-size:16px;overflow:hidden}
+.book_item .author{background:url(../image/user-avatar.png) left center no-repeat;padding-left:20px;color:#999}
+.book_item .hot{background:url(../image/hot.png) left center no-repeat;padding-left:20px;color:#c9483c}
+.book_item .time{background:url(../image/time.png) left center no-repeat;padding-left:20px;color:#c9483c}
+.book_item .type a{display:inline-block;padding:1px 3px;border:1px solid #a4b9cc;border-radius:4px;color:#a4b9cc}
+.book_item .summary{color:#999;overflow:hidden}
+.book_item .history{height:20px;line-height:20px;color:#666}
+.book_item .history a{color:#666}
+.book_item .action{height:20px;line-height:20px;}
+.book_item p{display:block;font-size:12px;margin-top:5px;line-height:18px;overflow:hidden}
+.book_item span{width:38%;float:left;box-sizing:border-box;-moz-box-sizing:border-box}
+
+.book_small_item{margin:15px 0;padding:8px 10px 8px 125px;height:104px}
+.book_small_item em{position:absolute;left:10px;top:0;color:#ba350f;font-weight:700}
+.book_small_item .cover{left:25px;width:90px;height:120px}
+.book_small_item .cover img{width:90px;height:120px}
+.book_small_item .author{margin-top:10px}
+.book_small_item .type{margin-top:10px}
+
+.hot_list li{height:45px;line-height:45px;white-space:nowrap;text-overflow:ellipsis;padding:0 10px;border-top:1px solid #e6e6e1;overflow:hidden}
+.hot_list li em{color:#999;display:inline-block;margin-right:5px}
+
+.book_list{overflow:hidden}
+.book_list li{position:relative;float:left;width:25%;height:169px;box-sizing:border-box;-moz-box-sizing:border-box;padding:18px 15px 18px 135px;border-right:1px solid #e6e6e1}
+.book_list li .cover{position:absolute;left:15px;top:18px;width:110px;height:133px}
+.book_list li .cover img{width:100%;height:133px}
+.book_list li .cover span{position:absolute;bottom:0;width:100%;height:26px;line-height:26px;background:rgba(0,0,0,.5);color:#fff;font-size:12px;text-align:center;display:block}
+.book_list li .title{padding:0;height:20px;line-height:20px;font-size:16px}
+.book_list li .author{background:url(../image/user-avatar.png) left center no-repeat;padding-left:20px;height:18px;line-height:18px;color:#999}
+.book_list li .hot{height:18px;line-height:18px;background:url(../image/hot.png) left center no-repeat;padding-left:20px;color:#c9483c}
+.book_list li .type a{display:inline-block;padding:1px 3px;border:1px solid #a4b9cc;border-radius:4px;color:#a4b9cc}
+.book_list li .summary{line-height:18px;color:#999;overflow:hidden}
+.book_list li p{display:block;font-size:12px;margin-top:5px;overflow: hidden;}
+.book_list li span{width:38%;float:left;box-sizing:border-box;-moz-box-sizing:border-box;}
+
+/*其它*/
+.w300_h250{width:300px;height:250px;line-height:250px;background:#fff;text-align:center}
+.w300_h200{width:300px;height:200px;line-height:200px;background:#fff;text-align:center;margin-bottom:15px;}
+.w650_h80{width:650px;height:80px;line-height:80px;background:#fff;text-align:center;margin-top:10px}
+.w885_h80{width:885px;height:80px;line-height:80px;background:#fff;border:#dfdfdf solid 1px;text-align:center;box-sizing:border-box;}

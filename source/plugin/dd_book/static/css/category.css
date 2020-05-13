@@ -1,0 +1,21 @@
+.book_left{width:300px;float:left}
+.book_right{width:885px;float:right}
+
+.sideNav{background:#fff;border:1px solid #dcdddd;border-top:2px solid #ba350f;margin-bottom:15px}
+.sideNavTitle{background-color:#eee;background:-moz-linear-gradient(top,#fcfcfc,#eee);background:-webkit-gradient(linear,left top,left bottom,from(#fcfcfc),to(#eee));display:block;padding:10px 20px;font-size:15px;font-weight:700}
+.sideNavList{line-height:44px}
+.sideNavList a,.sideNavList span{display:block;height:44px;line-height:44px;border-top:1px solid #dedede;text-decoration:none;cursor:pointer}
+.sideNavList .parent span{padding-left:30px}
+.sideNavList .parent span::after{content:"";width:43px;height:43px;float:right;background:url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23666%22%20stroke-width%3D%221.1%22%20points%3D%2210%201%204%207%2010%2013%22%3E%3C%2Fpolyline%3E%0A%3C%2Fsvg%3E") no-repeat 50% 50%}
+.sideNavList .parent.open span{background:#f5f5f5;font-size:15px;color:#ba350f}
+.sideNavList .parent.open span::after{background-image:url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23666%22%20stroke-width%3D%221.1%22%20points%3D%221%204%207%2010%2013%204%22%3E%3C%2Fpolyline%3E%0A%3C%2Fsvg%3E")}
+.sideNavList .child li a{padding-left:50px}
+.sideNavList .child li.active a{color:#ba350f}
+
+.book_list_warp{padding:18px;margin-top:15px;background:#fff;border:1px solid #dfdfdf;overflow:hidden}
+.book_list_name{padding-bottom:10px;margin-bottom:20px;border-bottom:1px solid #dfdfdf;height:26px;line-height:26px;overflow:hidden}
+.book_list_name h5{display:inline-block;font-size:20px}
+.book_list_name span{display:inline-block;font-size:14px;margin-left:10px}
+.book_list_name em{color:#ca3c3c!important}
+
+.pages{margin-top:15px;}

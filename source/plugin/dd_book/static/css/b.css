@@ -1,0 +1,65 @@
+.page-read.H {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.H .page-read-content {
+    position: absolute;
+    top: 3.5rem;
+    bottom: 1rem;
+    overflow: hidden;
+    width: 100%;
+    border-top: 0;
+}
+.H .read-article {
+    min-height: 100%;
+}
+.H .read-article {
+    height: 100%;
+}
+.read-article {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    overflow: hidden;
+    min-height: calc(100vh - 44px);
+    margin: 0 16px;
+    text-align: justify;
+}
+.H .read-section {
+    overflow: visible;
+    height: 100%;
+    -webkit-columns: calc(100vw - 32px) 1;
+    -webkit-column-gap: 16px;
+    columns: calc(100vw - 32px) 1;
+    column-gap: 16px;
+}
+.H .read-page-num {
+    display: block;
+}
+.read-section {
+    overflow: hidden;
+    min-height: inherit;
+}
+.read-page-num {
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    display: none;
+    color: rgba(0,0,0,.4);
+}
+.swipe-cover, .scroll-cover{display: none;position:absolute;width:100%;height:100vh;z-index:1;font-size:0;}
+.swipe-cover img, .scroll-cover img{max-width: 13vw;}
+.swipe-cover .swipe-item-left,.scroll-cover .swipe-item-left{position:relative;display:inline-block;width:27%;height:100vh;background-color:#000;opacity:0.8;text-align:center;}
+.swipe-cover .swipe-item-left > div,.scroll-cover .swipe-item-left > div{position: absolute;color:#fff;font-size:0.8rem;text-align:center;width: 100%;top: 46%;transform: translateY(-50%);}
+.swipe-cover .swipe-item-center,.scroll-cover .swipe-item-center{position:relative;display:inline-block;width:46%;height:100vh;background-color:#000;opacity:0.9;}
+.swipe-cover .swipe-item-center > .swipe-common,.scroll-cover .swipe-item-center > .swipe-common{position: absolute;color:#fff;font-size:0.8rem;text-align:center;width: 100%;top: 46%;transform: translateY(-50%);}
+.swipe-cover .swipe-item-center > .swipe-tips,.scroll-cover .swipe-item-center > .swipe-tips{position: absolute;color:#fff;font-size:0.8rem;text-align:center;width: 100%;bottom:26%;}
+.swipe-cover .swipe-tips-btn,.scroll-cover .swipe-tips-btn{border:2px solid #d81c7d;color:#d81c7d;font-size:1rem;padding:5px 0;width:30vw;border-radius:6px;background:transparent;}
+.swipe-cover .swipe-item-right,.scroll-cover .swipe-item-right{position:relative;display:inline-block;width:27%;height:100vh;background-color:#000;opacity:0.8;}
+.swipe-cover .swipe-item-right > div,.scroll-cover .swipe-item-right > div{position: absolute;color:#fff;font-size:0.8rem;text-align:center;width: 100%;top: 46%;transform: translateY(-50%);}
+.fontpink{color:#d81c7d;margin: 0.8rem 0;}
+.read-pay-btn{width: 70vw;background-color: #d81c7d;border-radius: 23px;}
+.weui-btn:after{display:none}/*不加这个，ios下会显示出圆角边框*/

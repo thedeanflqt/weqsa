@@ -1,0 +1,30 @@
+.label-border,a.label-border{display:inline-block;padding:0 10px;background:#fff;border:1px solid #1e87f0;line-height:1.5;font-size:12px;color:#1e87f0;vertical-align:middle;white-space:nowrap;border-radius:2px;text-transform:uppercase}
+.book_detail{position:relative;padding:10px;margin:15px 0;background:#fff;border-radius:2px;box-shadow:0 1px 2px 0 rgba(0,0,0,.05);overflow:hidden}
+.book_cover{position:absolute;left:10px;top:10px;width:100px;height:130px}
+.book_cover img{width:100px;height:130px}
+.book_info{padding-left:110px;height:140px;}
+.book_info .book_title{height:22px;line-height:22px;padding-top:10px;overflow:hidden}
+.book_info .book_title h1{display:inline-block;color:#f44336;font-size:16px;font-weight:700}
+.book_info .book_title em{display:inline-block;margin-left:5px;color:#555}
+.book_info .book_type{margin-top:5px}
+.book_info .book_att{margin-top:5px;height:20px;line-height:20px;color:#777}
+.book_info .book_open{margin-top:5px}
+.book_info .book_open a.layui-btn{height:28px;line-height:28px;padding:0 10px;background-color:#1aad19;color:#fff}
+.book_summary .layui-card-body{line-height:22px;color:#777}
+
+.layui-tab{background:#fff}
+.layui-tab-header{height:42px;line-height:42px;border-bottom:1px solid #f6f6f6;position:relative;overflow:hidden}
+.layui-tab-header h5{position:absolute;left:0;top:0;padding-left:25px;font-size:15px;font-weight:700}
+.layui-tab-header h5:before{position:absolute;top:12px;left:15px;content:'';width:3px;height:16px;background:#f5554a;display:inline-block}
+.layui-tab-header .layui-tab-title{position:absolute;left:70px;border:0}
+.layui-tab-title li{padding:0;min-width:40px;font-size:12px}
+.layui-tab-title .layui-this{color:#f44336}
+.layui-tab-title .layui-this:after{border:0}
+.layui-tab-content{padding:0 10px}
+.layui-tab-content .more{display:block;padding:10px 15px;border-top:1px solid #f1f1f1;font-size:14px;text-align:center;color:#999}
+
+.chapter_list li{padding:10px 15px;border-top:1px solid #f1f1f1;font-size:14px}
+.chapter_list li:first-child{border-top:0}
+
+.book_detail .w650_h80{max-height:60px;overflow:hidden}
+.book_detail .w650_h80 img{width:100%;height:auto}

@@ -1,0 +1,13 @@
+.child-nav-panel{padding:10px 10px 5px;background:#fff;margin-bottom:10px;overflow:hidden}
+.child-nav-panel ul{margin:-5px}
+.child-nav-panel li{float:left;width:25%;padding:5px;box-sizing:border-box}
+.child-nav-panel li a{display:block;height:25px;line-height:25px;background:#f9f9f9;border:1px solid #dedede;border-radius:3px;text-align:center}
+.child-nav-panel li.cur a{background:#fff;border-color:#f23647;color:#f23647}
+
+.category-card .layui-card-body{padding:0;overflow: hidden;}
+
+.book_item{height:100px;padding:10px 10px 10px 100px;border-bottom:1px solid #e1e1e1;margin-bottom:0}
+.book_item .cover{position:absolute;left:10px;top:10px;width:83px;height:100px}
+.book_item .cover img{width:83px;height:100px}
+.book_item .title{font-size:15px;margin-top:5px}
+.book_item .col2{margin-top:8px}

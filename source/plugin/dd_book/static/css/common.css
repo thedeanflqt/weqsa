@@ -1,0 +1,64 @@
+#shoujierweima-wrap button{
+    top:30px;
+    right:30px;
+}
+#shoujierweima{
+    padding: 120px 93.5px 134px;
+    background: url(../image/read-qrcode-bj2.png);
+}
+#shoujierweima img{
+    width: 180px;
+    margin: 10px;
+}
+#read-qrcode{
+    height: 200px !important;
+    padding: 120px 93.5px 134px;
+    background: url(../image/read-qrcode-bj2.png);
+}
+#read-qrcode + .layui-layer-setwin > .layui-layer-close2{
+    width: 22px;
+    height: 23px;
+    top: -4px;
+    right: -4px;
+    background: url(../image/read-qrcode-close.png);
+    background-size: contain;
+}
+.read-x-comment li{
+    float: left;
+    border-bottom: none;
+}
+.uk-iconnav > li{
+    margin-top: 40px;
+    text-align: center;
+}
+.uk-navbar-toggle{
+    display: inline-block;
+    text-align: center;
+    height: 0px !important;
+}
+.read-dropdown{
+    top:40px !important;
+}
+.gds-list img{
+    vertical-align: inherit;
+}
+.goumai-btn{
+    display: inline-block;
+    margin: 26.8px 0 31px;
+    width: 257px;
+    height: 54px;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    background-color: #ca3c3c;
+    border-radius: 27px;
+    line-height: 54px;
+}
+.goumai-btn:hover{
+    color: #fcff00;
+}
+.goumai-intro{
+    margin-top:23.8px;
+    font-size: 23px;
+    color: #ca3c3c;
+}
