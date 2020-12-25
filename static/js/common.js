@@ -201,6 +201,17 @@ function getcookie(name, nounescape) {
 	}
 }
 
+function fingerprint() {
+	var key = 'lastfp';
+	if (!getcookie(key)) {
+		FingerprintJS.load().then(fp => {
+			fp.get().then(result => {
+				setcookie(key, result.visitorId);
+			});
+		});
+	}
+}
+
 function Ajax(recvType, waitId) {
 	var aj = new Object();
 	aj.loading = '请稍候...';
@@ -2224,6 +2235,9 @@ if(typeof IN_ADMINCP == 'undefined') {
 	if(typeof showusercard != 'undefined' && showusercard == 1) {
 		_attachEvent(window, 'load', cardInit, document);
 	}
+	if (getcookie('daylogin')) {
+		_attachEvent(window, 'load', showDayLogin, document);
+	}
 }
 
 if(BROWSER.ie) {
@@ -2237,4 +2251,13 @@ function randomBg(classname){
     for (i = 0; i < divs.length; i++) {
         divs[i].style.backgroundColor = colors[Math.floor(Math.random() * 18)];
     }
+}
+
+function showDayLogin() {
+	showWindow('daylogin', 'misc.php?mod=daylogin', 'get', -1);
+}
+
+function notDayLogin() {
+	setcookie('daylogin', '');
+	location.reload();
 }
