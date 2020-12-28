@@ -1185,16 +1185,7 @@ function fingerprint() {
 }
 
 $(document).ready(function() {
-	var jump_url = '/misc.php?mod=daylogin';
-	if (getcookie('daylogin') && window.location.pathname + window.location.search !== jump_url) {
-		if (window.location.pathname === '/portal.php' && !getcookie('hide_show')) {
-			setTimeout(function () {
-				window.location.href = jump_url
-			}, 4000);
-		} else {
-			window.location.href = jump_url
-		}
-	}
+
 	if($('div.pg').length > 0) {
 		page.converthtml();
 	}
